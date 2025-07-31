@@ -48,14 +48,15 @@ TodoBuildapi/
    ```bash
    git clone https://github.com/AnasNihal/TodoBuildapi.git
    cd TodoBuildapi
-Create and activate virtual environment
 
-python -m venv venv
-# source venv/bin/activate  
-# Windows: venv\Scripts\activate
+2. Create and activate virtual environment / Install dependencies : 
+ ```bash
+  python -m venv venv
+  source venv/bin/activate  
+  Windows: venv\Scripts\activate
 
-Install dependencies
-pip install -r requirements.txt
+  Install dependencies :
+  pip install -r requirements.txt
 
 Apply migrations
 python manage.py makamigrations
